@@ -4,19 +4,24 @@ add_whitespace:
 svg_icons:
   type: "list"
   list_type: "compact"
-  default: "fab-facebook|fab-twitter"
+  default: "fab-discord|fab-github|fas fa-poll-h"
 header_links:
   type: objects
   default:
-    - title: "Desktop and mobile link"
-      icon: "fab-facebook"
-      url: "https://facebook.com"
+    - title: "OpenBMC Discord channel"
+      icon: "fab-discord"
+      url: "https://discord.gg/dEBf9DNU"
       view: "vdm"
       target: "blank"
-    - title: "Mobile-only link"
-      icon: "fab-twitter"
-      url: "https://twitter.com"
-      view: "vmo"
+    - title: "OpenBMC GitHub repository"
+      icon: "fab-github"
+      url: "https://github.com/openbmc"
+      view: "vdm"
+      target: "blank"
+    - title: "OpenBMC Gerrit"
+      icon: "fas fa-poll-h"
+      url: "https://gerrit.openbmc-project.xyz"
+      view: "vdm"
       target: "blank"
   schema:
     name: "link"

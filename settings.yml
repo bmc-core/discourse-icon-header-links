@@ -10,7 +10,7 @@ header_links:
   default:
     - title: "OpenBMC Discord channel"
       icon: "fab-discord"
-      url: "https://discord.gg/dEBf9DNU"
+      url: "https://discord.gg/6nJPuuKm2V"
       view: "vdm"
       target: "blank"
     - title: "OpenBMC GitHub repository"
